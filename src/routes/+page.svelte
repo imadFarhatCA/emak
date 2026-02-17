@@ -1,49 +1,37 @@
 <script>
-	// Component imports will go here
+	import Hero from '$lib/components/sections/Hero.svelte';
+	import PartnersCarousel from '$lib/components/sections/PartnersCarousel.svelte';
+	import CardCarousel from '$lib/components/sections/CardCarousel.svelte';
+
+	import IndustryGrid from '$lib/components/sections/IndustryGrid.svelte';
+	import KoriAI from '$lib/components/sections/KoriAI.svelte';
+	import PricingSection from '$lib/components/sections/PricingSection.svelte';
+	import TestimonialsCarousel from '$lib/components/sections/TestimonialsCarousel.svelte';
+	import NewsletterForm from '$lib/components/sections/NewsletterForm.svelte';
+	import FAQ from '$lib/components/sections/FAQ.svelte';
+	import { cardCarouselData } from '$lib/data/cardCarousel';
 </script>
 
 <svelte:head>
-	<title>emak - Your Product</title>
-	<meta name="description" content="emak product description" />
+	<title>EMAK Telecom - For businesses that can't afford to miss a call</title>
+	<meta
+		name="description"
+		content="The intelligent phone system that automatically handles missed calls, responds to customers instantly, and keeps your team focused on what matters most"
+	/>
 </svelte:head>
 
-<main>
-	<section class="hero section">
-		<div class="container">
-			<h1>Welcome to emak</h1>
-			<p>Your product/SaaS description goes here</p>
-		</div>
-	</section>
-</main>
-
-<style>
-	.hero {
-		min-height: 100vh;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		text-align: center;
-		background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-		color: white;
-	}
-
-	h1 {
-		font-size: 3.5rem;
-		margin-bottom: 1rem;
-	}
-
-	p {
-		font-size: 1.5rem;
-		opacity: 0.9;
-	}
-
-	@media (max-width: 768px) {
-		h1 {
-			font-size: 2.5rem;
-		}
-
-		p {
-			font-size: 1.2rem;
-		}
-	}
-</style>
+<Hero />
+<PartnersCarousel />
+<CardCarousel
+	subtitle="The EMAK difference"
+	title="The phone system that keeps you connected and in control"
+	description="Our mission is to make business communication easier, clearer, and more dependable for the people who keep Canada running, with technology that works smoothly and support that shows up when it matters most."
+	descriptionHighlight="Tailored solutions for every type of business"
+	cards={cardCarouselData}
+/>
+<IndustryGrid />
+<KoriAI />
+<PricingSection />
+<TestimonialsCarousel />
+<NewsletterForm />
+<FAQ />

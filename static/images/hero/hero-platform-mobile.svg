@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 690" fill="none">
+
+  <!-- ═══ Phone Frame ═══ -->
+  <rect x="20" y="15" width="300" height="660" rx="36" fill="#1a1a1a"/>
+  <!-- Screen -->
+  <rect x="24" y="19" width="292" height="652" rx="34" fill="#f7f6f5"/>
+  <!-- Dynamic Island -->
+  <rect x="120" y="22" width="100" height="26" rx="13" fill="#1a1a1a"/>
+  <!-- Home indicator -->
+  <rect x="130" y="654" width="80" height="4" rx="2" fill="#ccc"/>
+
+  <!-- ═══ Status Bar ═══ -->
+  <text x="42" y="42" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#111">9:41</text>
+  <!-- Signal bars -->
+  <rect x="260" y="36" width="3" height="4" rx="0.5" fill="#111"/>
+  <rect x="265" y="34" width="3" height="6" rx="0.5" fill="#111"/>
+  <rect x="270" y="32" width="3" height="8" rx="0.5" fill="#111"/>
+  <rect x="275" y="30" width="3" height="10" rx="0.5" fill="#111"/>
+  <!-- Wifi -->
+  <path d="M288,38 Q292,30 296,38" stroke="#111" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M290,36 Q292,32 294,36" stroke="#111" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Battery -->
+  <rect x="302" y="33" width="16" height="8" rx="2" stroke="#111" stroke-width="1" fill="none"/>
+  <rect x="318" y="35.5" width="2" height="3" rx="0.5" fill="#111"/>
+  <rect x="303.5" y="34.5" width="11" height="5" rx="1" fill="#111"/>
+
+  <!-- ═══ App Header ═══ -->
+  <text x="38" y="72" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="#111">EMAK</text>
+  <text x="80" y="72" font-family="Inter,sans-serif" font-size="7" font-weight="500" fill="#ee7700">telecom</text>
+
+  <!-- Header right icons -->
+  <circle cx="270" cy="68" r="12" fill="#fff"/>
+  <circle cx="276" cy="62" r="4" fill="#ee7700"/>
+  <text x="276" y="65" font-family="Inter,sans-serif" font-size="6" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+
+  <circle cx="300" cy="68" r="12" fill="#ee7700"/>
+  <text x="300" y="72" font-family="Inter,sans-serif" font-size="8" font-weight="600" fill="#fff" text-anchor="middle">SM</text>
+
+  <!-- ═══ Greeting ═══ -->
+  <text x="38" y="102" font-family="Inter,sans-serif" font-size="14" font-weight="600" fill="#111">Good morning, Sarah</text>
+  <text x="38" y="116" font-family="Inter,sans-serif" font-size="9" fill="#999">Monday, Feb 16 · 3 calls in queue</text>
+
+  <!-- ═══ Stat Cards ═══ -->
+  <rect x="34" y="128" width="86" height="58" rx="8" fill="#fff"/>
+  <text x="44" y="144" font-family="Inter,sans-serif" font-size="7" fill="#999">Active Lines</text>
+  <text x="44" y="168" font-family="Inter,sans-serif" font-size="20" font-weight="700" fill="#111">24</text>
+  <rect x="72" y="158" width="20" height="12" rx="6" fill="#e6f9ee"/>
+  <text x="82" y="167" font-family="Inter,sans-serif" font-size="7" font-weight="600" fill="#34c759" text-anchor="middle">+3</text>
+
+  <rect x="127" y="128" width="86" height="58" rx="8" fill="#fff"/>
+  <text x="137" y="144" font-family="Inter,sans-serif" font-size="7" fill="#999">Calls Today</text>
+  <text x="137" y="168" font-family="Inter,sans-serif" font-size="20" font-weight="700" fill="#111">156</text>
+  <rect x="180" y="158" width="24" height="12" rx="6" fill="#e6f9ee"/>
+  <text x="192" y="167" font-family="Inter,sans-serif" font-size="7" font-weight="600" fill="#34c759" text-anchor="middle">94%</text>
+
+  <rect x="220" y="128" width="86" height="58" rx="8" fill="#fff"/>
+  <text x="230" y="144" font-family="Inter,sans-serif" font-size="7" fill="#999">KORI AI</text>
+  <text x="230" y="168" font-family="Inter,sans-serif" font-size="20" font-weight="700" fill="#7c3aed">38</text>
+  <rect x="264" y="158" width="30" height="12" rx="6" fill="#f0eaff"/>
+  <text x="279" y="167" font-family="Inter,sans-serif" font-size="7" font-weight="600" fill="#7c3aed" text-anchor="middle">saves</text>
+
+  <!-- ═══ Recent Calls ═══ -->
+  <rect x="34" y="198" width="272" height="192" rx="10" fill="#fff"/>
+  <text x="48" y="218" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#111">Recent Calls</text>
+  <text x="272" y="218" font-family="Inter,sans-serif" font-size="8" fill="#ee7700">View all</text>
+
+  <!-- Call 1 -->
+  <circle cx="56" cy="244" r="12" fill="#fef3c7"/>
+  <text x="56" y="248" font-family="Inter,sans-serif" font-size="7" font-weight="600" fill="#92400e" text-anchor="middle">JD</text>
+  <text x="74" y="240" font-family="Inter,sans-serif" font-size="10" font-weight="500" fill="#111">John D.</text>
+  <text x="74" y="252" font-family="Inter,sans-serif" font-size="8" fill="#34c759">Answered · 4m ago</text>
+  <text x="290" y="246" font-family="Inter,sans-serif" font-size="8" fill="#ddd">2min</text>
+
+  <!-- Call 2 -->
+  <circle cx="56" cy="278" r="12" fill="#f0eaff"/>
+  <text x="56" y="282" font-family="Inter,sans-serif" font-size="7" font-weight="600" fill="#7c3aed" text-anchor="middle">AL</text>
+  <text x="74" y="274" font-family="Inter,sans-serif" font-size="10" font-weight="500" fill="#111">Amy L.</text>
+  <text x="74" y="286" font-family="Inter,sans-serif" font-size="8" fill="#7c3aed">KORI handled · 2m ago</text>
+  <text x="290" y="280" font-family="Inter,sans-serif" font-size="8" fill="#ddd">8min</text>
+
+  <!-- Call 3 -->
+  <circle cx="56" cy="312" r="12" fill="#dbeafe"/>
+  <text x="56" y="316" font-family="Inter,sans-serif" font-size="7" font-weight="600" fill="#1e40af" text-anchor="middle">MR</text>
+  <text x="74" y="308" font-family="Inter,sans-serif" font-size="10" font-weight="500" fill="#111">Mike R.</text>
+  <text x="74" y="320" font-family="Inter,sans-serif" font-size="8" fill="#34c759">Answered · 8m ago</text>
+  <text x="290" y="314" font-family="Inter,sans-serif" font-size="8" fill="#ddd">15min</text>
+
+  <!-- Call 4 -->
+  <circle cx="56" cy="346" r="12" fill="#fce7f3"/>
+  <text x="56" y="350" font-family="Inter,sans-serif" font-size="7" font-weight="600" fill="#be185d" text-anchor="middle">SK</text>
+  <text x="74" y="342" font-family="Inter,sans-serif" font-size="10" font-weight="500" fill="#111">Sara K.</text>
+  <text x="74" y="354" font-family="Inter,sans-serif" font-size="8" fill="#34c759">Answered · 12m ago</text>
+  <text x="290" y="348" font-family="Inter,sans-serif" font-size="8" fill="#ddd">22min</text>
+
+  <!-- Call 5 -->
+  <circle cx="56" cy="376" r="12" fill="#e6f9ee"/>
+  <text x="56" y="380" font-family="Inter,sans-serif" font-size="7" font-weight="600" fill="#166534" text-anchor="middle">LB</text>
+  <text x="74" y="372" font-family="Inter,sans-serif" font-size="10" font-weight="500" fill="#111">Laura B.</text>
+  <text x="74" y="384" font-family="Inter,sans-serif" font-size="8" fill="#ee7700">Missed · 20m ago</text>
+  <text x="290" y="378" font-family="Inter,sans-serif" font-size="8" fill="#ddd">—</text>
+
+  <!-- ═══ KORI AI Card ═══ -->
+  <rect x="34" y="402" width="272" height="100" rx="10" fill="#fff"/>
+  <rect x="34" y="402" width="272" height="28" rx="10" fill="#7c3aed"/>
+  <rect x="34" y="418" width="272" height="12" fill="#7c3aed"/>
+  <text x="50" y="420" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#fff">KORI AI Insights</text>
+
+  <rect x="48" y="438" width="244" height="20" rx="4" fill="#f8f6ff"/>
+  <text x="58" y="452" font-family="Inter,sans-serif" font-size="8" fill="#7c3aed">38 calls auto-handled today</text>
+  <text x="280" y="452" font-family="Inter,sans-serif" font-size="8" font-weight="600" fill="#7c3aed" text-anchor="end">97%</text>
+
+  <rect x="48" y="464" width="244" height="20" rx="4" fill="#f8f6ff"/>
+  <text x="58" y="478" font-family="Inter,sans-serif" font-size="8" fill="#7c3aed">12 follow-ups scheduled</text>
+  <text x="280" y="478" font-family="Inter,sans-serif" font-size="8" font-weight="600" fill="#7c3aed" text-anchor="end">3 urgent</text>
+
+  <rect x="48" y="490" width="118" height="0" rx="4" fill="#f8f6ff"/>
+
+  <!-- ═══ Quick Actions ═══ -->
+  <rect x="34" y="514" width="130" height="38" rx="8" fill="#ee7700"/>
+  <text x="99" y="538" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#fff" text-anchor="middle">+ New Call</text>
+
+  <rect x="176" y="514" width="130" height="38" rx="8" fill="#fff"/>
+  <text x="241" y="538" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#111" text-anchor="middle">Team Chat</text>
+  <circle cx="284" cy="530" r="3" fill="#34c759"/>
+
+  <!-- ═══ Live Indicator ═══ -->
+  <rect x="34" y="564" width="272" height="32" rx="8" fill="#fff"/>
+  <circle cx="52" cy="580" r="4" fill="#34c759">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="62" y="584" font-family="Inter,sans-serif" font-size="9" font-weight="500" fill="#111">3 live calls</text>
+  <text x="144" y="584" font-family="Inter,sans-serif" font-size="8" fill="#999">· Queue: 0 waiting</text>
+  <text x="282" y="584" font-family="Inter,sans-serif" font-size="8" fill="#ee7700">View</text>
+
+  <!-- ═══ Bottom Tab Bar ═══ -->
+  <rect x="24" y="608" width="292" height="56" rx="0" fill="#fff"/>
+  <rect x="24" y="608" width="292" height="1" fill="#f0f0f0"/>
+  <!-- Round bottom corners to match screen -->
+  <rect x="24" y="637" width="292" height="34" rx="34" fill="#fff"/>
+
+  <!-- Dashboard (active) -->
+  <rect x="50" y="614" width="28" height="3" rx="1.5" fill="#ee7700"/>
+  <text x="64" y="636" font-family="Inter,sans-serif" font-size="8" font-weight="600" fill="#ee7700" text-anchor="middle">Home</text>
+
+  <!-- Calls -->
+  <text x="122" y="636" font-family="Inter,sans-serif" font-size="8" fill="#999" text-anchor="middle">Calls</text>
+  <circle cx="136" cy="618" r="5" fill="#ee7700"/>
+  <text x="136" y="621" font-family="Inter,sans-serif" font-size="6" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+
+  <!-- Chat -->
+  <text x="180" y="636" font-family="Inter,sans-serif" font-size="8" fill="#999" text-anchor="middle">Chat</text>
+  <circle cx="193" cy="630" r="3" fill="#34c759"/>
+
+  <!-- KORI -->
+  <text x="238" y="636" font-family="Inter,sans-serif" font-size="8" fill="#999" text-anchor="middle">KORI</text>
+
+  <!-- More -->
+  <text x="290" y="636" font-family="Inter,sans-serif" font-size="8" fill="#999" text-anchor="middle">More</text>
+
+  <!-- ═══ Animated Cursor + Popups ═══ -->
+  <defs>
+    <filter id="m-popup-shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Click ripples -->
+  <circle cx="170" cy="156" r="0" fill="none" stroke="#ee7700" stroke-width="1.5" opacity="0">
+    <animate attributeName="r" values="0;12" dur="0.4s" begin="2s;16s;30s;44s" fill="freeze"/>
+    <animate attributeName="opacity" values="0.5;0" dur="0.4s" begin="2s;16s;30s;44s" fill="freeze"/>
+  </circle>
+  <circle cx="170" cy="278" r="0" fill="none" stroke="#7c3aed" stroke-width="1.5" opacity="0">
+    <animate attributeName="r" values="0;12" dur="0.4s" begin="5s;19s;33s;47s" fill="freeze"/>
+    <animate attributeName="opacity" values="0.5;0" dur="0.4s" begin="5s;19s;33s;47s" fill="freeze"/>
+  </circle>
+  <circle cx="170" cy="450" r="0" fill="none" stroke="#7c3aed" stroke-width="1.5" opacity="0">
+    <animate attributeName="r" values="0;12" dur="0.4s" begin="8s;22s;36s;50s" fill="freeze"/>
+    <animate attributeName="opacity" values="0.5;0" dur="0.4s" begin="8s;22s;36s;50s" fill="freeze"/>
+  </circle>
+  <circle cx="99" cy="533" r="0" fill="none" stroke="#fff" stroke-width="1.5" opacity="0">
+    <animate attributeName="r" values="0;12" dur="0.4s" begin="11s;25s;39s;53s" fill="freeze"/>
+    <animate attributeName="opacity" values="0.4;0" dur="0.4s" begin="11s;25s;39s;53s" fill="freeze"/>
+  </circle>
+
+  <!-- ═══ Popup 1: Stat Detail (on stat card tap) ═══ -->
+  <g opacity="0" filter="url(#m-popup-shadow)">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="1.6s" begin="2.1s;16.1s;30.1s;44.1s" fill="freeze"/>
+    <rect x="60" y="186" width="220" height="60" rx="8" fill="#fff"/>
+    <text x="74" y="204" font-family="Inter,sans-serif" font-size="9" font-weight="600" fill="#111">Today's Breakdown</text>
+    <text x="74" y="220" font-family="Inter,sans-serif" font-size="8" fill="#999">Inbound: 112 · Outbound: 44</text>
+    <rect x="74" y="228" width="192" height="6" rx="3" fill="#f0f0f0"/>
+    <rect x="74" y="228" width="138" height="6" rx="3" fill="#ee7700"/>
+    <rect x="212" y="228" width="54" height="6" rx="3" fill="#7c3aed" opacity="0.5"/>
+    <text x="74" y="242" font-family="Inter,sans-serif" font-size="7" fill="#bbb">72% inbound · 28% outbound</text>
+  </g>
+
+  <!-- ═══ Popup 2: Call Detail (on Amy L. tap) ═══ -->
+  <g opacity="0" filter="url(#m-popup-shadow)">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="1.6s" begin="5.1s;19.1s;33.1s;47.1s" fill="freeze"/>
+    <rect x="60" y="296" width="220" height="80" rx="8" fill="#fff"/>
+    <circle cx="82" cy="318" r="10" fill="#f0eaff"/>
+    <text x="82" y="322" font-family="Inter,sans-serif" font-size="7" font-weight="600" fill="#7c3aed" text-anchor="middle">AL</text>
+    <text x="98" y="314" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#111">Amy Liu</text>
+    <text x="98" y="326" font-family="Inter,sans-serif" font-size="8" fill="#999">Nexus Solutions</text>
+    <line x1="74" y1="336" x2="266" y2="336" stroke="#f0f0f0" stroke-width="1"/>
+    <text x="74" y="350" font-family="Inter,sans-serif" font-size="8" fill="#999">2m 34s</text>
+    <rect x="112" y="341" width="36" height="14" rx="3" fill="#f0eaff"/>
+    <text x="130" y="351" font-family="Inter,sans-serif" font-size="7" font-weight="600" fill="#7c3aed" text-anchor="middle">KORI</text>
+    <text x="160" y="350" font-family="Inter,sans-serif" font-size="8" fill="#34c759">Positive</text>
+    <rect x="74" y="360" width="70" height="10" rx="3" fill="#f0f0f0"/>
+    <text x="78" y="368" font-family="Inter,sans-serif" font-size="6" fill="#ee7700">View transcript</text>
+  </g>
+
+  <!-- ═══ Popup 3: KORI Summary (on KORI card tap) ═══ -->
+  <g opacity="0" filter="url(#m-popup-shadow)">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="1.6s" begin="8.1s;22.1s;36.1s;50.1s" fill="freeze"/>
+    <rect x="50" y="400" width="240" height="68" rx="8" fill="#111"/>
+    <text x="64" y="418" font-family="Inter,sans-serif" font-size="9" font-weight="600" fill="#fff">KORI Daily Report</text>
+    <text x="64" y="434" font-family="Inter,sans-serif" font-size="8" fill="#ccc">Avg response: 1.2s · Resolution: 97%</text>
+    <text x="64" y="450" font-family="Inter,sans-serif" font-size="8" fill="#ccc">Top queries: Billing, Hours, Pricing</text>
+    <text x="64" y="462" font-family="Inter,sans-serif" font-size="8" fill="#34c759">All systems nominal</text>
+  </g>
+
+  <!-- ═══ Popup 4: New Call (on button tap) ═══ -->
+  <g opacity="0" filter="url(#m-popup-shadow)">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="1.6s" begin="11.1s;25.1s;39.1s;53.1s" fill="freeze"/>
+    <rect x="50" y="450" width="240" height="62" rx="8" fill="#fff"/>
+    <text x="64" y="468" font-family="Inter,sans-serif" font-size="9" font-weight="600" fill="#111">Quick Dial</text>
+    <rect x="64" y="476" width="212" height="24" rx="5" fill="#f7f6f5"/>
+    <text x="74" y="492" font-family="Inter,sans-serif" font-size="9" fill="#999">Search contacts or dial...</text>
+    <circle cx="262" cy="488" r="8" fill="#ee7700"/>
+    <text x="262" y="491" font-family="Inter,sans-serif" font-size="8" font-weight="600" fill="#fff" text-anchor="middle">→</text>
+  </g>
+
+  <!-- Cursor (finger/touch indicator) -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="170,102; 170,102; 170,156; 170,156; 170,278; 170,278; 170,450; 170,450; 99,533; 99,533; 170,102"
+      keyTimes="0; 0.06; 0.14; 0.22; 0.36; 0.44; 0.57; 0.65; 0.78; 0.86; 1"
+      dur="14s" repeatCount="indefinite"
+      calcMode="spline"
+      keySplines="0 0 1 1; 0.4 0 0.2 1; 0 0 1 1; 0.4 0 0.2 1; 0 0 1 1; 0.4 0 0.2 1; 0 0 1 1; 0.4 0 0.2 1; 0 0 1 1; 0.4 0 0.2 1"/>
+    <!-- Touch circle indicator -->
+    <circle cx="0" cy="0" r="10" fill="#111" opacity="0.08"/>
+    <circle cx="0" cy="0" r="4" fill="#111" opacity="0.15"/>
+  </g>
+</svg>

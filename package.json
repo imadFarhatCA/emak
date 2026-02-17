@@ -14,5 +14,9 @@
 		"svelte": "^5.0.0",
 		"vite": "^5.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"embla-carousel-autoplay": "^8.6.0",
+		"embla-carousel-svelte": "^8.6.0"
+	}
 }

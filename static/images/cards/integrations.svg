@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="none"/>
+
+  <rect x="8" y="8" width="122" height="80" rx="12" fill="#f0f0f0"/>
+  <rect x="20" y="20" width="36" height="36" rx="8" fill="#4285f4"/>
+  <text x="38" y="44" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">G</text>
+  <text x="64" y="38" font-family="Inter,sans-serif" font-size="13" font-weight="500" fill="#333">Google</text>
+  <text x="64" y="54" font-family="Inter,sans-serif" font-size="10" fill="#999">Calendar</text>
+  <circle cx="116" cy="22" r="5" fill="#34c759"/>
+
+  <rect x="140" y="8" width="122" height="80" rx="12" fill="#f0f0f0"/>
+  <rect x="152" y="20" width="36" height="36" rx="8" fill="#0078d4"/>
+  <text x="170" y="44" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">T</text>
+  <text x="196" y="38" font-family="Inter,sans-serif" font-size="13" font-weight="500" fill="#333">Teams</text>
+  <text x="196" y="54" font-family="Inter,sans-serif" font-size="10" fill="#999">Calls</text>
+  <circle cx="248" cy="22" r="5" fill="#34c759"/>
+
+  <rect x="272" y="8" width="122" height="80" rx="12" fill="#f0f0f0"/>
+  <rect x="284" y="20" width="36" height="36" rx="8" fill="#ff6c37"/>
+  <text x="302" y="44" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">H</text>
+  <text x="328" y="38" font-family="Inter,sans-serif" font-size="13" font-weight="500" fill="#333">HubSpot</text>
+  <text x="328" y="54" font-family="Inter,sans-serif" font-size="10" fill="#999">CRM</text>
+  <circle cx="380" cy="22" r="5" fill="#34c759"/>
+
+  <rect x="8" y="100" width="122" height="80" rx="12" fill="#f0f0f0"/>
+  <rect x="20" y="112" width="36" height="36" rx="8" fill="#00a4ef"/>
+  <text x="38" y="136" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">S</text>
+  <text x="64" y="130" font-family="Inter,sans-serif" font-size="13" font-weight="500" fill="#333">Salesforce</text>
+  <text x="64" y="146" font-family="Inter,sans-serif" font-size="10" fill="#999">Leads</text>
+  <circle cx="116" cy="114" r="5" fill="#34c759"/>
+
+  <rect x="140" y="100" width="122" height="80" rx="12" fill="#f0f0f0"/>
+  <rect x="152" y="112" width="36" height="36" rx="8" fill="#611f69"/>
+  <text x="170" y="136" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">S</text>
+  <text x="196" y="130" font-family="Inter,sans-serif" font-size="13" font-weight="500" fill="#333">Slack</text>
+  <text x="196" y="146" font-family="Inter,sans-serif" font-size="10" fill="#999">Alerts</text>
+  <circle cx="248" cy="114" r="5" fill="#34c759"/>
+
+  <rect x="272" y="100" width="122" height="80" rx="12" fill="#f0f0f0"/>
+  <rect x="284" y="112" width="36" height="36" rx="8" fill="#2684ff"/>
+  <text x="302" y="136" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">Z</text>
+  <text x="328" y="130" font-family="Inter,sans-serif" font-size="13" font-weight="500" fill="#333">Zapier</text>
+  <text x="328" y="146" font-family="Inter,sans-serif" font-size="10" fill="#999">Automate</text>
+  <circle cx="380" cy="114" r="5" fill="#34c759"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="none"/>
+  <rect x="8" y="8" width="240" height="48" rx="16" fill="#f0f0f0"/>
+  <text x="22" y="28" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#ee7700">Sarah M.</text>
+  <text x="22" y="46" font-family="Inter,sans-serif" font-size="14" fill="#333">Closed the deal with Nexus!</text>
+
+  <rect x="130" y="72" width="262" height="42" rx="16" fill="#ee7700"/>
+  <text x="148" y="98" font-family="Inter,sans-serif" font-size="14" fill="#fff">Great work! Updating CRM.</text>
+
+  <rect x="8" y="130" width="260" height="48" rx="16" fill="#f0f0f0"/>
+  <text x="22" y="150" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#ee7700">Mike R.</text>
+  <text x="22" y="168" font-family="Inter,sans-serif" font-size="14" fill="#333">Client called back for a quote</text>
+
+  <rect x="160" y="194" width="232" height="42" rx="16" fill="#ee7700"/>
+  <text x="178" y="220" font-family="Inter,sans-serif" font-size="14" fill="#fff">Perfect, on it now</text>
+
+  <rect x="8" y="254" width="60" height="34" rx="14" fill="#f0f0f0"/>
+  <circle cx="24" cy="271" r="4" fill="#aaa"/>
+  <circle cx="38" cy="271" r="4" fill="#ccc"/>
+  <circle cx="52" cy="271" r="4" fill="#ddd"/>
+</svg>

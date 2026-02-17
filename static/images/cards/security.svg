@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="none"/>
+
+  <rect x="8" y="8" width="384" height="76" rx="12" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <circle cx="52" cy="46" r="28" fill="none" stroke="#e5e7eb" stroke-width="5"/>
+  <circle cx="52" cy="46" r="28" fill="none" stroke="#34c759" stroke-width="5" stroke-dasharray="160 176" stroke-linecap="round" transform="rotate(-90 52 46)"/>
+  <text x="52" y="52" font-family="Inter,sans-serif" font-size="18" font-weight="700" fill="#111" text-anchor="middle">A+</text>
+  <text x="96" y="38" font-family="Inter,sans-serif" font-size="14" font-weight="600" fill="#111">Security: Excellent</text>
+  <text x="96" y="58" font-family="Inter,sans-serif" font-size="11" fill="#666">All systems operational</text>
+
+  <rect x="8" y="96" width="90" height="76" rx="10" fill="#f0f0f0"/>
+  <rect x="18" y="108" width="32" height="32" rx="6" fill="#1e40af"/>
+  <text x="34" y="130" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">SOC</text>
+  <text x="56" y="126" font-family="Inter,sans-serif" font-size="11" font-weight="500" fill="#333">SOC 2</text>
+  <text x="18" y="160" font-family="Inter,sans-serif" font-size="10" fill="#34c759">Certified ✓</text>
+
+  <rect x="106" y="96" width="90" height="76" rx="10" fill="#f0f0f0"/>
+  <rect x="116" y="108" width="32" height="32" rx="6" fill="#dc2626"/>
+  <text x="132" y="130" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#fff" text-anchor="middle">CA</text>
+  <text x="154" y="126" font-family="Inter,sans-serif" font-size="10" font-weight="500" fill="#333">PIPEDA</text>
+  <text x="116" y="160" font-family="Inter,sans-serif" font-size="10" fill="#34c759">Compliant ✓</text>
+
+  <rect x="204" y="96" width="90" height="76" rx="10" fill="#f0f0f0"/>
+  <rect x="214" y="108" width="32" height="32" rx="6" fill="#7c3aed"/>
+  <text x="230" y="128" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="#fff" text-anchor="middle">GDPR</text>
+  <text x="252" y="126" font-family="Inter,sans-serif" font-size="11" font-weight="500" fill="#333">GDPR</text>
+  <text x="214" y="160" font-family="Inter,sans-serif" font-size="10" fill="#34c759">Compliant ✓</text>
+
+  <rect x="302" y="96" width="90" height="76" rx="10" fill="#f0f0f0"/>
+  <rect x="312" y="108" width="32" height="32" rx="6" fill="#0891b2"/>
+  <text x="328" y="128" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="#fff" text-anchor="middle">E2E</text>
+  <text x="350" y="126" font-family="Inter,sans-serif" font-size="10" font-weight="500" fill="#333">256-bit</text>
+  <text x="312" y="160" font-family="Inter,sans-serif" font-size="10" fill="#34c759">Active ✓</text>
+
+  <rect x="8" y="188" width="188" height="64" rx="10" fill="#f0f0f0"/>
+  <text x="22" y="218" font-family="Inter,sans-serif" font-size="16" fill="#333">🇨🇦</text>
+  <text x="46" y="216" font-family="Inter,sans-serif" font-size="13" font-weight="500" fill="#333">Canadian Data</text>
+  <text x="46" y="236" font-family="Inter,sans-serif" font-size="10" fill="#34c759">99.99% uptime</text>
+
+  <rect x="204" y="188" width="188" height="64" rx="10" fill="#f0f0f0"/>
+  <text x="218" y="218" font-family="Inter,sans-serif" font-size="16" fill="#333">🔒</text>
+  <text x="242" y="216" font-family="Inter,sans-serif" font-size="13" font-weight="500" fill="#333">Sovereignty</text>
+  <text x="242" y="236" font-family="Inter,sans-serif" font-size="10" fill="#34c759">Stays in Canada</text>
+</svg>
