@@ -79,7 +79,7 @@
 		gap: var(--space-3xl); align-items: center;
 	}
 	.newsletter-description {
-		font-size: 1.15rem; line-height: 1.7; color: var(--color-gray); margin: 0;
+		font-size: 1.15rem; line-height: 1.7; color: var(--color-text-light); margin: 0;
 	}
 	.newsletter-form {
 		display: grid; grid-template-columns: 1fr 1fr auto;

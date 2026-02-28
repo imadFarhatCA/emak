@@ -78,16 +78,16 @@
 
 	.pricing-cta {
 		padding: var(--space-2xl);
-		background: var(--color-primary);
-		border-radius: var(--radius-lg); color: var(--color-bg);
+		background: var(--color-gray);
+		border-radius: var(--radius-lg); color: var(--color-text);
 		text-align: center; margin-top: var(--space-3xl);
 	}
 	.cta-text {
 		font-size: 1.5rem; font-weight: var(--fw-bold);
-		margin-bottom: var(--space-lg); color: var(--color-bg);
+		margin-bottom: var(--space-lg); color: var(--color-text);
 	}
 	.cta-phone {
-		margin-top: var(--space-md); font-size: 1.1rem; color: var(--color-gray);
+		margin-top: var(--space-md); font-size: 1.1rem; color: var(--color-text-light);
 	}
 	.cta-phone a {
 		color: var(--color-accent); font-weight: var(--fw-semibold); text-decoration: none;

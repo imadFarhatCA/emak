@@ -83,29 +83,29 @@
 
 <style>
 	.footer {
-		background-color: var(--color-primary);
-		color: var(--color-background);
-		padding: var(--spacing-3xl) 0 var(--spacing-lg);
+		background-color: var(--color-gray);
+		color: var(--color-text);
+		padding: var(--spacing-2xl) 0 var(--spacing-lg);
 		margin-top: var(--spacing-3xl);
 	}
 
 	.footer-container {
-		max-width: 100%;
+		max-width: 1200px;
 		margin: 0 auto;
 		padding: 0 var(--spacing-md);
 	}
 
 	.footer-content {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-		gap: var(--spacing-xl);
-		margin-bottom: var(--spacing-xl);
+		grid-template-columns: 1.2fr 0.8fr 1.2fr 0.8fr;
+		gap: var(--spacing-lg);
+		margin-bottom: var(--spacing-lg);
 	}
 
 	.footer-column h4 {
-		font-size: 1.1rem;
+		font-size: 1rem;
 		font-weight: var(--font-weight-bold);
-		margin-bottom: var(--spacing-md);
+		margin-bottom: var(--spacing-sm);
 		color: var(--color-accent);
 	}
 
@@ -115,26 +115,26 @@
 	}
 
 	.footer-logo {
-		margin-bottom: var(--spacing-sm);
+		margin-bottom: var(--spacing-xs);
 	}
 
 	.footer-logo img {
-		height: 50px;
+		height: 40px;
 		width: auto;
-		filter: brightness(0) invert(1);
+		filter: none;
 	}
 
 	.company-name {
-		font-size: 1.5rem;
+		font-size: 1.25rem;
 		font-weight: var(--font-weight-bold);
-		margin-bottom: var(--spacing-xs);
-		color: var(--color-background);
+		margin-bottom: 4px;
+		color: var(--color-text);
 	}
 
 	.company-tagline {
-		font-size: 0.95rem;
-		line-height: 1.6;
-		color: var(--color-light-gray);
+		font-size: 0.9rem;
+		line-height: 1.5;
+		color: var(--color-text-light);
 		margin: 0;
 	}
 
@@ -146,13 +146,13 @@
 	}
 
 	.footer-links li {
-		margin-bottom: var(--spacing-sm);
+		margin-bottom: 6px;
 	}
 
 	.footer-links a {
-		color: var(--color-light-gray);
+		color: var(--color-text-light);
 		transition: color var(--transition-fast);
-		font-size: 0.95rem;
+		font-size: 0.9rem;
 	}
 
 	.footer-links a:hover {
@@ -162,24 +162,24 @@
 	/* Contact Info */
 	.contact-item {
 		display: flex;
-		gap: var(--spacing-sm);
-		margin-bottom: var(--spacing-md);
+		gap: 8px;
+		margin-bottom: 10px;
 		align-items: flex-start;
 	}
 
 	.contact-item i {
 		color: var(--color-accent);
-		font-size: 1.1rem;
+		font-size: 1rem;
 		margin-top: 2px;
 		flex-shrink: 0;
 	}
 
 	.contact-item p,
 	.contact-item a {
-		color: var(--color-light-gray);
-		font-size: 0.95rem;
+		color: var(--color-text-light);
+		font-size: 0.9rem;
 		margin: 0;
-		line-height: 1.6;
+		line-height: 1.5;
 	}
 
 	.contact-item a:hover {
@@ -194,8 +194,8 @@
 
 	.phone-list a,
 	.phone-list span {
-		color: var(--color-light-gray);
-		font-size: 0.95rem;
+		color: var(--color-text-light);
+		font-size: 0.9rem;
 	}
 
 	.phone-list a:hover {
@@ -213,12 +213,12 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 44px;
-		height: 44px;
-		background-color: var(--color-secondary);
+		width: 38px;
+		height: 38px;
+		background-color: var(--color-border-light);
 		border-radius: var(--radius-md);
-		color: var(--color-background);
-		font-size: 1.3rem;
+		color: var(--color-text);
+		font-size: 1.1rem;
 		transition: all var(--transition-normal);
 	}
 
@@ -230,13 +230,13 @@
 
 	/* Footer Bottom */
 	.footer-bottom {
-		border-top: 1px solid var(--color-secondary);
-		padding-top: var(--spacing-lg);
+		border-top: 1px solid var(--color-border);
+		padding-top: var(--spacing-md);
 		text-align: center;
 	}
 
 	.copyright {
-		color: var(--color-light-gray);
+		color: var(--color-text-muted);
 		font-size: 0.9rem;
 		margin: 0;
 	}
@@ -250,15 +250,22 @@
 
 		.footer-content {
 			grid-template-columns: 1fr;
-			gap: var(--spacing-xl);
+			gap: var(--spacing-lg);
+			text-align: center;
 		}
 
-		.footer-info {
-			text-align: center;
+		.footer-column {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
 		}
 
 		.footer-logo img {
 			margin: 0 auto;
+		}
+
+		.footer-links {
+			text-align: center;
 		}
 
 		.social-links {
@@ -269,6 +276,10 @@
 			flex-direction: column;
 			align-items: center;
 			text-align: center;
+		}
+
+		.phone-list {
+			align-items: center;
 		}
 	}
 

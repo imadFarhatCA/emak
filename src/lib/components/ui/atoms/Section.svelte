@@ -13,5 +13,5 @@
 	.lg { padding: 120px 0; }
 	.white { background-color: var(--color-bg); }
 	.gray { background-color: var(--color-gray); }
-	.dark { background-color: var(--color-primary); color: white; }
+	.dark { background-color: var(--color-gray); color: var(--color-text); }
 </style>
