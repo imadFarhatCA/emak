@@ -4,6 +4,10 @@
 	import Footer from '$lib/components/layout/Footer.svelte';
 </script>
 
+<svelte:head>
+	<script src="https://website-control-panel.pages.dev/tracker.js"></script>
+</svelte:head>
+
 <div class="app">
 	<Header />
 
