@@ -2,11 +2,10 @@
 	import '../app.css';
 	import Header from '$lib/components/layout/Header.svelte';
 	import Footer from '$lib/components/layout/Footer.svelte';
+	import WebsiteTracker from '$lib/components/WebsiteTracker.svelte';
 </script>
 
-<svelte:head>
-	<script src="https://website-control-panel.pages.dev/tracker.js"></script>
-</svelte:head>
+<WebsiteTracker />
 
 <div class="app">
 	<Header />
